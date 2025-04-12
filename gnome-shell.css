@@ -342,7 +342,8 @@ StEntry:focus {
 
 #panel {
 	background-color: rgba(243, 247, 251, 1);
-	height: 34px;
+	height: 42px;
+	padding: 0 8px;
 	font-size: 13px;
 	box-shadow: none;
 }
@@ -356,13 +357,13 @@ StEntry:focus {
 /* i know margin are not used cuz hitboxes of buttons don't expand to screen edges */
 /* however with this trick i cannot paint button borders */
 .panel-button {
-	margin: 4px 3px;
+	margin: 6px 5px !important;
 }
 
 /* allows to shrink horizontal padding for app icons */
-.panel-button { -natural-hpadding: 6px !important; }
-.panel-status-indicators-box:first-child { padding-left: 3px; }
-.panel-status-indicators-box:last-child { padding-right: 3px; }
+.panel-button { -natural-hpadding: 10px !important; }
+.panel-status-indicators-box:first-child { padding-left: 5px; }
+.panel-status-indicators-box:last-child { padding-right: 5px; }
 .panel-status-indicators-box:first-child:last-child { padding: 0; }
 .panel-button#panelActivities { -natural-hpadding: 10px !important; }
 
@@ -393,7 +394,7 @@ StEntry:focus {
 #panel .screencast-indicator,
 #panel .remote-access-indicator,
 #panel .panel-button.screen-sharing-indicator { /* when sharing screen */
-	background: #cd9309;
+	display: none !important;
 }
 
 #panel .panel-button.screen-sharing-indicator:hover {
