@@ -371,7 +371,7 @@ StEntry:focus {
 .panel-button,
 .panel-button .clock { /* DND / new messages icon */
 	color: rgba(35, 50, 66, 1);
-	border-radius: 9px;
+	border-radius: 11px;
 	border-width: 0 !important;
 	background-color: rgba(219, 229, 239, 0.9);
 	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
@@ -398,7 +398,7 @@ StEntry:focus {
 }
 
 #panel .panel-button.screen-sharing-indicator:hover {
-	background: rgba(205, 147, 9, 0.9);
+	display: none !important;
 }
 
 /* indicator when recording screen */
