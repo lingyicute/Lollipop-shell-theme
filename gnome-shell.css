@@ -37,7 +37,7 @@
 }
 
 .toggle-switch:checked {
-	background-color: rgba(111, 173, 235, 1);
+	background-color: rgba(123, 188, 238, 1);
 }
 
 /* Do Not Distrub toggle */
@@ -60,7 +60,7 @@
 }
 
 .dnd-button .toggle-switch:checked {
-	background-color: rgba(111, 173, 235, 1);
+	background-color: rgba(123, 188, 238, 1);
 }
 
 .dnd-button:hover .toggle-switch:checked {
@@ -118,7 +118,7 @@
 	-barlevel-background-color: rgba(219, 229, 239, 0.9);
 	-barlevel-color: rgba(35, 50, 66, 1);
 	color: rgba(35, 50, 66, 1); /* slider handle color (47+) */
-	-barlevel-active-background-color: rgba(111, 173, 235, 1);
+	-barlevel-active-background-color: rgba(123, 188, 238, 1);
 	-barlevel-height: 10px;
 	-barlevel-border-width: 0px; /* up to 46 */
 	-slider-handle-radius: 7px;
@@ -249,7 +249,7 @@ StScrollBar StButton#hhandle:active {
 .modal-dialog-linked-button:rtl:first-child,
 .modal-dialog-button-box .modal-dialog-button:ltr:last-child,
 .modal-dialog-button-box .modal-dialog-button:rtl:first-child {
-	background-color: rgba(111, 173, 235, 1);
+	background-color: rgba(123, 188, 238, 1);
 	color: rgba(35, 50, 66, 1);
 }
 
@@ -656,7 +656,7 @@ StEntry:focus {
 /* today button */
 .calendar-today,
 .calendar-today:selected {
-	background-color: rgba(111, 173, 235, 1);
+	background-color: rgba(123, 188, 238, 1);
 	color: rgba(35, 50, 66, 1) !important;
 	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -795,13 +795,13 @@ StEntry:focus {
 
 .keyboard-key:hover { background-color: rgba(203, 216, 230, 0.95); }
 .keyboard-key:active { background-color: rgba(186, 203, 221, 0.95); }
-.keyboard-key:checked { background-color: rgba(111, 173, 235, 1); }
+.keyboard-key:checked { background-color: rgba(123, 188, 238, 1); }
 
 
 /* non-character keys */ 
 .keyboard-key.default-key {
     color: rgba(35, 50, 66, 1);
-    background-color: rgba(111, 173, 235, 1);
+    background-color: rgba(123, 188, 238, 1);
 }
 
 .keyboard-key.default-key:hover { background-color: rgba(81, 152, 224, 1); }
@@ -1246,11 +1246,11 @@ StEntry:focus {
 
 /* window border when selecting */
 .screenshot-ui-window-selector-window:hover .screenshot-ui-window-selector-window-border {
-	border-color: rgba(111, 173, 235, 1);
+	border-color: rgba(123, 188, 238, 1);
 }
 
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-window-border {
-	border-color: rgba(111, 173, 235, 1);
+	border-color: rgba(123, 188, 238, 1);
 	background-color: rgba(182, 214, 246, 0.5);
 }
 
@@ -1259,7 +1259,7 @@ StEntry:focus {
 /* check icon when selected window */
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-check {
 	color: rgba(35, 50, 66, 1);
-	background-color: rgba(111, 173, 235, 1);
+	background-color: rgba(123, 188, 238, 1);
 	border-radius: 99px;
 }
 
@@ -1489,7 +1489,7 @@ StEntry:focus {
 /* Tiled window previews */
 .tile-preview {
 	background-color: rgba(182, 214, 246, 0.5);
-	border: 1px solid rgba(111, 173, 235, 1);
+	border: 1px solid rgba(123, 188, 238, 1);
 }
 
 /* .windows-close in screenshot.css */
@@ -1828,7 +1828,7 @@ StEntry:focus {
 .quick-toggle-has-menu .quick-toggle:checked,
 .quick-toggle-has-menu .quick-toggle-menu-button:checked {
 	color: rgba(35, 50, 66, 1);
-	background-color: rgba(111, 173, 235, 1);
+	background-color: rgba(123, 188, 238, 1);
 	border-color: transparent;
 }
 
@@ -1892,7 +1892,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 
 .quick-toggle-menu .header .icon.active {
-	background-color: rgba(111, 173, 235, 1);
+	background-color: rgba(123, 188, 238, 1);
 	color: rgba(35, 50, 66, 1);
 }
 
