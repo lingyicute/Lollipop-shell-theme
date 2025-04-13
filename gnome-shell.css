@@ -341,7 +341,7 @@ StEntry:focus {
 /* Panel */
 
 #panel {
-	background-color: rgba(243, 247, 251, 1);
+	background-color: rgba(243, 247, 251, 0.85);
 	height: 42px;
 	padding: 0 8px;
 	font-size: 13px;
